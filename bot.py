@@ -1,7 +1,8 @@
 import json
 import time
 import os
-import subprocess
+import base64
+import requests
 from openai import OpenAI
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
@@ -30,16 +31,27 @@ def log_event(event: dict):
     with open(LOG_FILE, "a") as f:
         f.write(json.dumps(event) + "\n")
 
-GITHUB_REMOTE = f"https://22f3001283:{GITHUB_PAT}@github.com/22f3001283/tds-p1-bot.git"
-
-REPO_DIR = os.path.dirname(os.path.abspath(__file__))
+GITHUB_REPO = "22f3001283/tds-p1-bot"
+GITHUB_FILE_PATH = "run.jsonl"
+GITHUB_API_URL = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE_PATH}"
 
 def push_log():
     try:
-        subprocess.run(["git", "remote", "set-url", "origin", GITHUB_REMOTE], check=True, cwd=REPO_DIR)
-        subprocess.run(["git", "add", "run.jsonl"], check=True, cwd=REPO_DIR)
-        subprocess.run(["git", "commit", "-m", "update log"], check=False, cwd=REPO_DIR)
-        subprocess.run(["git", "push"], check=True, cwd=REPO_DIR)
+        headers = {
+            "Authorization": f"token {GITHUB_PAT}",
+            "Accept": "application/vnd.github+json",
+        }
+        with open(LOG_FILE, "r") as f:
+            content = f.read()
+        content_b64 = base64.b64encode(content.encode("utf-8")).decode("utf-8")
+        get_resp = requests.get(GITHUB_API_URL, headers=headers)
+        sha = get_resp.json().get("sha") if get_resp.status_code == 200 else None
+        data = {"message": "update log", "content": content_b64}
+        if sha:
+            data["sha"] = sha
+        put_resp = requests.put(GITHUB_API_URL, headers=headers, json=data)
+        if put_resp.status_code not in (200, 201):
+            print(f"Log push failed: {put_resp.status_code} {put_resp.text}")
     except Exception as e:
         print(f"Log push failed: {e}")
 
