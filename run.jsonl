@@ -26,3 +26,5 @@
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": 30, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785423941.74907}
 {"type": "incoming", "chat_id": 8968954769, "text": "Which is the largest planet in our solar system? Reply with ONLY this JSON: {\"answer\": {\"planet\": \"<name>\"}}", "timestamp": 1785423945.2880864}
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": {\"planet\": \"Jupiter\"}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785423948.052805}
+{"type": "incoming", "chat_id": 8968954769, "text": "I'm thinking of a number. It is 50.", "timestamp": 1785423951.2624967}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": 50, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785423968.7148983}
