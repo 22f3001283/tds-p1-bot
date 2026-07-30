@@ -66,3 +66,5 @@
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"values\": [10.5, 21.0, 31.5], \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785428976.1164882}
 {"type": "incoming", "chat_id": 8968954769, "text": "For the numbers 3, 7, 2, 9, 4, report the mean and the maximum, rounded to 2 decimal places. Reply with ONLY this JSON object and nothing else: {\"stats\": {\"mean\": <number>, \"max\": <number>}}", "timestamp": 1785428982.740201}
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"stats\": {\"mean\": 5.0, \"max\": 9.0}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785428987.872267}
+{"type": "incoming", "chat_id": 8968954769, "text": "Fetch https://api.github.com/repos/octocat/Hello-World and report the repository's numeric \"id\" field. Reply with ONLY a JSON object like {\"id\": <number>}", "timestamp": 1785428997.6923068}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"id\": 1296269, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785429000.1386974}
