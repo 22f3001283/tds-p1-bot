@@ -62,3 +62,5 @@
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": {\"state\": \"Beijing\"}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785428479.2742105}
 {"type": "incoming", "chat_id": 8968954769, "text": "What is the capital of Kerala? Reply with ONLY this JSON: {\"answer\": {\"state\": \"<state name>\"}}", "timestamp": 1785428520.837593}
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": {\"state\": \"Thiruvananthapuram\"}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785428523.9421775}
+{"type": "incoming", "chat_id": 8968954769, "text": "What is 17 * 23? Reply with ONLY a JSON object like {\"value\": <number>}", "timestamp": 1785428699.6694658}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"value\": 391, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785428702.8171537}
