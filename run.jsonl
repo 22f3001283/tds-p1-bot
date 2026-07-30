@@ -46,3 +46,5 @@
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": 110, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785424293.3557825}
 {"type": "incoming", "chat_id": 8968954769, "text": "According to the Indian Census 2011, which state has the highest population? Reply with ONLY this JSON: {\"answer\": {\"state\": \"<state name>\"}}", "timestamp": 1785424297.436126}
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": {\"state\": \"Uttar Pradesh\"}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785424301.1542997}
+{"type": "incoming", "chat_id": 8968954769, "text": "What is 15% of 200? Reply with ONLY this JSON: {\"answer\": <number>}", "timestamp": 1785424353.8534122}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": 30, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785424357.7987945}
