@@ -14,3 +14,5 @@
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": 120, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785422221.2189562}
 {"type": "incoming", "chat_id": 8968954769, "text": "Which is the largest planet in our solar system? Reply with ONLY this JSON: {\"answer\": {\"planet\": \"<name>\"}}", "timestamp": 1785422790.4029229}
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": {\"planet\": \"Jupiter\"}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785422794.7803874}
+{"type": "incoming", "chat_id": 8968954769, "text": "I'm thinking of a number. It is 50.", "timestamp": 1785422798.3558733}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": 50, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785422809.0222507}
