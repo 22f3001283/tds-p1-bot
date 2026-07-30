@@ -1,16 +1,20 @@
 import json
 import time
 import os
+import subprocess
 from openai import OpenAI
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 from dotenv import load_dotenv
+
+
 load_dotenv()
 # --- fill these in with your own values ---
 
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 AIPIPE_TOKEN = os.environ["AIPIPE_TOKEN"]
-LOG_URL = "https://raw.githubusercontent.com/22f3001283/tds-p1-bot/refs/heads/main/run.jsonl"  # see Step 5 — where run.jsonl will be hosted
+GITHUB_PAT = os.environ["GITHUB_PAT"]
+LOG_URL = os.environ["LOG_URL"]
 
 # -------------------------------------------
 
@@ -25,6 +29,19 @@ def log_event(event: dict):
     event["timestamp"] = time.time()
     with open(LOG_FILE, "a") as f:
         f.write(json.dumps(event) + "\n")
+
+GITHUB_REMOTE = f"https://22f3001283:{GITHUB_PAT}@github.com/22f3001283/tds-p1-bot.git"
+
+REPO_DIR = os.path.dirname(os.path.abspath(__file__))
+
+def push_log():
+    try:
+        subprocess.run(["git", "remote", "set-url", "origin", GITHUB_REMOTE], check=True, cwd=REPO_DIR)
+        subprocess.run(["git", "add", "run.jsonl"], check=True, cwd=REPO_DIR)
+        subprocess.run(["git", "commit", "-m", "update log"], check=False, cwd=REPO_DIR)
+        subprocess.run(["git", "push"], check=True, cwd=REPO_DIR)
+    except Exception as e:
+        print(f"Log push failed: {e}")
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
@@ -64,6 +81,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     final_reply = json.dumps(parsed)
 
     log_event({"type": "outgoing", "chat_id": chat_id, "text": final_reply})
+    push_log()
     await update.message.reply_text(final_reply)
 
 app = ApplicationBuilder().token(TELEGRAM_BOT_TOKEN).build()

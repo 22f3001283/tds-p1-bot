@@ -1,2 +1,4 @@
 telethon>=1.36,<2
 python-dotenv
+python-telegram-bot
+openai
