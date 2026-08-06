@@ -85,3 +85,5 @@
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": \"16\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786020507.8224692}
 {"type": "incoming", "chat_id": 8968954769, "text": "hello", "timestamp": 1786020513.2841587}
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": \"Hello, how can I help with your data or analysis question?\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786020518.536266}
+{"type": "incoming", "chat_id": 1297468777, "text": "What's the capital of india", "timestamp": 1786020545.954683}
+{"type": "outgoing", "chat_id": 1297468777, "text": "{\"country\": \"India\", \"capital\": \"New Delhi\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786020550.5629358}
