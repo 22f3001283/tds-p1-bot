@@ -79,3 +79,5 @@
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"input\": 256, \"operation\": \"square_root\", \"result\": 16, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786019960.7390134}
 {"type": "incoming", "chat_id": 8968954769, "text": "Reply with ONLY this JSON: {\"answer\": \"<value>\"}", "timestamp": 1786020483.0309658}
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": \"<value>\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786020493.8546224}
+{"type": "incoming", "chat_id": 8968954769, "text": "whats the square root of 256", "timestamp": 1786020495.987132}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": \"16\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786020498.4238453}
