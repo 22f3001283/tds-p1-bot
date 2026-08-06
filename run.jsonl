@@ -64,3 +64,5 @@
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": {\"sd\": 2.0}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785428965.5599065}
 {"type": "incoming", "chat_id": 1297468777, "text": "What is the capital of Japan? Reply with ONLY this JSON: {\"answer\": {\"state\": \"<state name>\"}}", "timestamp": 1785429431.1595738}
 {"type": "outgoing", "chat_id": 1297468777, "text": "{\"answer\": {\"state\": \"Tokyo\"}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785429433.6373844}
+{"type": "incoming", "chat_id": 1297468777, "text": "U there", "timestamp": 1786010628.8530896}
+{"type": "outgoing", "chat_id": 1297468777, "text": "{\"online\": true, \"message\": \"Yes, I'm here. How can I help?\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786010638.2295926}
