@@ -69,3 +69,5 @@
 {"type": "incoming", "chat_id": 1297468777, "text": "That's great", "timestamp": 1786010707.9018068}
 {"type": "incoming", "chat_id": 1297468777, "text": "That's great", "timestamp": 1786010825.0748487}
 {"type": "outgoing", "chat_id": 1297468777, "text": "{\"ok\": true, \"message\": \"Glad it helped. Would you like any follow-ups, visualizations, or deeper analysis?\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786010832.788916}
+{"type": "incoming", "chat_id": 1297468777, "text": "Yes", "timestamp": 1786010852.954314}
+{"type": "outgoing", "chat_id": 1297468777, "text": "{\"ok\": true, \"message\": \"Great \\u2014 which would you like next?\", \"options\": [\"summary\", \"visualization\", \"deeper_analysis\", \"statistical_tests\", \"forecasting_or_modeling\", \"download_data_csv\", \"custom_question\"], \"instructions\": \"Reply with one option name and any details (variables, chart type, time range, hypotheses, file format, etc.).\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786010860.9983416}
