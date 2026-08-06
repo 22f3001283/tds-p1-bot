@@ -72,7 +72,6 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "world knowledge, or arithmetic on numbers given in the message). "
         "Reply with ONLY that exact JSON object and absolutely nothing else — no "
         "explanation, no markdown, no code fences, just the raw JSON."
-        "Reply with ONLY this JSON: {"answer": "<value>"}"
     )
     response = client.chat.completions.create(
         model="gpt-5-mini",
