@@ -115,3 +115,7 @@
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"stats\": {\"mean\": 5.0, \"max\": 9.0}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786122976.1024349}
 {"type": "incoming", "chat_id": 8968954769, "text": "Fetch https://api.github.com/repos/octocat/Hello-World and report the repository's numeric \"id\" field. Reply with ONLY a JSON object like {\"id\": <number>}", "timestamp": 1786122980.946412}
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"id\": 1296269, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786122984.0524101}
+{"type": "incoming", "chat_id": 8968954769, "text": "I am going to give you some numbers, then ask a question about them.", "timestamp": 1786122992.9624443}
+{"type": "incoming", "chat_id": 8968954769, "text": "The numbers are 4, 8, 15, 16, 23, 42.", "timestamp": 1786123079.4422898}
+{"type": "incoming", "chat_id": 8968954769, "text": "What is their median? Reply with ONLY this JSON object and nothing else: {\"answer\": {\"median\": <number>}, \"log_url\": \"<public wget-able URL>\"}", "timestamp": 1786123087.5186477}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": {\"median\": 15.5}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786123093.060356}
