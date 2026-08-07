@@ -66,16 +66,16 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Ask the AI to work out the answer. The system prompt tells it exactly how to
     # format the final reply — this is the part that MUST match what the question asked.
     system_prompt = (
-    "You are a careful data analyst. The user's LAST message asks a data-analysis "
-    "question. If the message explicitly specifies a JSON shape to reply with, "
-    "follow that shape EXACTLY, including key names and nesting. "
-    "If the message does NOT specify any JSON shape, default to replying with "
-    "{\"answer\": <your answer>} using the key name \"answer\" specifically — "
-    "never invent a different key name like \"capital\" or \"result\". "
-    "Work out the real answer (use any public data you know, e.g. MOSPI statistics, "
-    "general world knowledge, or arithmetic on numbers given in the message). "
-    "Reply with ONLY that exact JSON object and absolutely nothing else — no "
-    "explanation, no markdown, no code fences, just the raw JSON."
+        "You are a careful data analyst. The user's LAST message asks a data-analysis "
+        "question and tells you exactly what JSON shape to reply with. Work out the "
+        "real answer (use any public data you know, e.g. MOSPI statistics, general "
+        "world knowledge, or arithmetic on numbers given in the message). "
+        "Match the requested JSON shape exactly, including nesting — if the message "
+        "shows a nested object like {\"answer\": {\"state\": \"...\"}}, the value under "
+        "\"answer\" must be an object with exactly that structure, not a bare string. "
+        "Never add any extra keys beyond exactly what the message asks for. "
+        "Reply with ONLY that exact JSON object and absolutely nothing else — no "
+        "explanation, no markdown, no code fences, just the raw JSON."
     )
     
     response = client.chat.completions.create(
