@@ -107,3 +107,5 @@
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"literacy_rate\": 93.2, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786121026.3974462}
 {"type": "incoming", "chat_id": 8968954769, "text": "What is 17 * 23? Reply with ONLY a JSON object like {\"value\": <number>}", "timestamp": 1786122808.0707798}
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"value\": 391, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786122810.521562}
+{"type": "incoming", "chat_id": 8968954769, "text": "Compute the population standard deviation of 2, 4, 4, 4, 5, 5, 7, 9, rounded to 4 decimal places. Reply with ONLY this JSON object and nothing else: {\"answer\": {\"sd\": <number>}, \"log_url\": \"<public wget-able URL to your agent's JSONL log>\"}", "timestamp": 1786122949.5846498}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": {\"sd\": 2.0}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786122957.202933}
