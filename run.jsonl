@@ -91,3 +91,5 @@
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786115926.959886}
 {"type": "incoming", "chat_id": 8968954769, "text": "hello", "timestamp": 1786115935.3867538}
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786115942.0299144}
+{"type": "incoming", "chat_id": 8968954769, "text": "what is the capital of china", "timestamp": 1786115953.2124093}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"capital\": \"Beijing\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786115961.9678676}
