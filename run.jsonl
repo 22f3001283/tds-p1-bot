@@ -119,3 +119,5 @@
 {"type": "incoming", "chat_id": 8968954769, "text": "The numbers are 4, 8, 15, 16, 23, 42.", "timestamp": 1786123079.4422898}
 {"type": "incoming", "chat_id": 8968954769, "text": "What is their median? Reply with ONLY this JSON object and nothing else: {\"answer\": {\"median\": <number>}, \"log_url\": \"<public wget-able URL>\"}", "timestamp": 1786123087.5186477}
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": {\"median\": 15.5}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786123093.060356}
+{"type": "incoming", "chat_id": 8968954769, "text": "How many of these numbers are even: 3, 4, 5, 6, 7, 8, 9, 10? Reply with ONLY a JSON object like {\"count\": <number>}", "timestamp": 1786123104.713349}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"count\": 4, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786123109.7228997}
