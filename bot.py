@@ -70,10 +70,6 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "question and tells you exactly what JSON shape to reply with. Work out the "
         "real answer (use any public data you know, e.g. MOSPI statistics, general "
         "world knowledge, or arithmetic on numbers given in the message). "
-        "Match the requested JSON shape exactly, including nesting — if the message "
-        "shows a nested object like {\"answer\": {\"state\": \"...\"}}, the value under "
-        "\"answer\" must be an object with exactly that structure, not a bare string. "
-        "Never add any extra keys beyond exactly what the message asks for. "
         "Reply with ONLY that exact JSON object and absolutely nothing else — no "
         "explanation, no markdown, no code fences, just the raw JSON."
     )
