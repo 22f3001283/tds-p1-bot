@@ -103,3 +103,5 @@
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"clarify\": {\"text\": \"Please specify which indicators you want for Brazil (e.g., population, GDP, area, life expectancy, unemployment, COVID vaccinations, energy production, or something else).\"}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786120898.4838953}
 {"type": "incoming", "chat_id": 8968954769, "text": "whats the literacy rate in us", "timestamp": 1786120900.1916704}
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"literacy_rate_percent\": 99, \"year\": 2016, \"source\": \"World Bank (adult literacy rate, % of people ages 15 and above)\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786120915.5786488}
+{"type": "incoming", "chat_id": 8968954769, "text": "ok what is the literacy rate of brazil", "timestamp": 1786121013.6967978}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"literacy_rate\": 93.2, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786121026.3974462}
