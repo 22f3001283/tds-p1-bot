@@ -58,3 +58,38 @@
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": 110, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785424396.567065}
 {"type": "incoming", "chat_id": 8968954769, "text": "According to the Indian Census 2011, which state has the highest population? Reply with ONLY this JSON: {\"answer\": {\"state\": \"<state name>\"}}", "timestamp": 1785424400.4927008}
 {"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": {\"state\": \"Uttar Pradesh\"}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785424403.0534074}
+{"type": "incoming", "chat_id": 8968954769, "text": "What is the capital of China? Reply with ONLY this JSON: {\"answer\": {\"state\": \"<state name>\"}}", "timestamp": 1785428476.5910308}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": {\"state\": \"Beijing\"}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785428479.2742105}
+{"type": "incoming", "chat_id": 8968954769, "text": "Compute the population standard deviation of 2, 4, 4, 4, 5, 5, 7, 9, rounded to 4 decimal places. Reply with ONLY this JSON object and nothing else: {\"answer\": {\"sd\": <number>}, \"log_url\": \"<public wget-able URL to your agent's JSONL log>\"}", "timestamp": 1785428954.3203838}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": {\"sd\": 2.0}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785428965.5599065}
+{"type": "incoming", "chat_id": 1297468777, "text": "What is the capital of Japan? Reply with ONLY this JSON: {\"answer\": {\"state\": \"<state name>\"}}", "timestamp": 1785429431.1595738}
+{"type": "outgoing", "chat_id": 1297468777, "text": "{\"answer\": {\"state\": \"Tokyo\"}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1785429433.6373844}
+{"type": "incoming", "chat_id": 1297468777, "text": "U there", "timestamp": 1786010628.8530896}
+{"type": "outgoing", "chat_id": 1297468777, "text": "{\"online\": true, \"message\": \"Yes, I'm here. How can I help?\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786010638.2295926}
+{"type": "incoming", "chat_id": 1297468777, "text": "That's great", "timestamp": 1786010707.9018068}
+{"type": "incoming", "chat_id": 1297468777, "text": "That's great", "timestamp": 1786010825.0748487}
+{"type": "outgoing", "chat_id": 1297468777, "text": "{\"ok\": true, \"message\": \"Glad it helped. Would you like any follow-ups, visualizations, or deeper analysis?\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786010832.788916}
+{"type": "incoming", "chat_id": 1297468777, "text": "Yes", "timestamp": 1786010855.6853793}
+{"type": "outgoing", "chat_id": 1297468777, "text": "{\"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786010860.9398248}
+{"type": "incoming", "chat_id": 1297468777, "text": "What is the capital of Japan? Reply with ONLY this JSON: {\"answer\": {\"state\": \"<state name>\"}}", "timestamp": 1786010877.4079144}
+{"type": "outgoing", "chat_id": 1297468777, "text": "{\"answer\": {\"state\": \"Tokyo\"}, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786010879.836271}
+{"type": "incoming", "chat_id": 1297468777, "text": "What's the capital of india", "timestamp": 1786010909.8460615}
+{"type": "outgoing", "chat_id": 1297468777, "text": "{\"country\": \"India\", \"capital\": \"New Delhi\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786010914.7958817}
+{"type": "incoming", "chat_id": 8968954769, "text": "whats the square root of 256", "timestamp": 1786019955.062442}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"input\": 256, \"operation\": \"square_root\", \"result\": 16, \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786019960.7390134}
+{"type": "incoming", "chat_id": 8968954769, "text": "Reply with ONLY this JSON: {\"answer\": \"<value>\"}", "timestamp": 1786020483.0309658}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": \"<value>\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786020493.8546224}
+{"type": "incoming", "chat_id": 8968954769, "text": "whats the square root of 256", "timestamp": 1786020495.987132}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": \"16\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786020498.4238453}
+{"type": "incoming", "chat_id": 8968954769, "text": "whats the square root of 256", "timestamp": 1786020505.7904017}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": \"16\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786020507.8224692}
+{"type": "incoming", "chat_id": 8968954769, "text": "hello", "timestamp": 1786020513.2841587}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"answer\": \"Hello, how can I help with your data or analysis question?\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786020518.536266}
+{"type": "incoming", "chat_id": 1297468777, "text": "What's the capital of india", "timestamp": 1786020545.954683}
+{"type": "outgoing", "chat_id": 1297468777, "text": "{\"country\": \"India\", \"capital\": \"New Delhi\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786020550.5629358}
+{"type": "incoming", "chat_id": 8968954769, "text": "hi", "timestamp": 1786115920.652695}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786115926.959886}
+{"type": "incoming", "chat_id": 8968954769, "text": "hello", "timestamp": 1786115935.3867538}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786115942.0299144}
+{"type": "incoming", "chat_id": 8968954769, "text": "what is the capital of china", "timestamp": 1786115953.2124093}
+{"type": "outgoing", "chat_id": 8968954769, "text": "{\"capital\": \"Beijing\", \"log_url\": \"https://raw.githubusercontent.com/22f3001283/tds-p1-bot/main/run.jsonl\"}", "timestamp": 1786115961.9678676}
